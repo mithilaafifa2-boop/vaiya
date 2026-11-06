@@ -1,0 +1,556 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Read client reviews and testimonials about Shawon's services and professional work.">
+
+    <title>Testimonials | Shawon Ahammed</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+    <!-- Testimonials Page CSS -->
+    <style>
+
+        .review-section {
+            padding: 60px 0;
+        }
+
+        .review-section h1 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .rating {
+            font-size: 22px;
+            margin-bottom: 35px;
+        }
+
+        .review-section .card {
+            border: none;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #111a2e;
+            transition: 0.3s ease;
+            height: 100%;
+        }
+
+        .review-section .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .review-section .card-img-top {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        .review-grid {
+            margin-bottom: 25px;
+        }
+
+        .service-quality {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 35px 25px;
+        }
+
+        .service-quality h2 {
+            text-align: center;
+            margin-bottom: 35px;
+            font-weight: 700;
+        }
+
+        .quality-item {
+            margin-bottom: 25px;
+        }
+
+        .quality-title {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .quality-bar {
+            height: 12px;
+            background: #263247;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .quality-bar .fill {
+            height: 100%;
+            border-radius: 20px;
+        }
+
+        .quality-bar .delivery {
+            width: 95%;
+            background: #198754;
+        }
+
+        .quality-bar .quality {
+            width: 98%;
+            background: #0d6efd;
+        }
+
+        .quality-bar .security {
+            width: 95%;
+            background: #20c997;
+        }
+
+        .quality-bar .action {
+            width: 92%;
+            background: #ffc107;
+        }
+
+        .quality-bar .response {
+            width: 90%;
+            background: #dc3545;
+        }
+
+        @media (max-width: 576px) {
+
+            .review-section {
+                padding: 40px 12px;
+            }
+
+            .review-section h1 {
+                font-size: 28px;
+            }
+
+            .service-quality {
+                padding: 25px 18px;
+                margin: 30px auto;
+            }
+
+            .service-quality h2 {
+                font-size: 23px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- Navbar Start -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg my-custom-nav">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="home.html">
+
+                    <img
+                        src="image/1000116055.jpg"
+                        alt="Shawon Logo"
+                        style="height:100px; width:auto;">
+
+                </a>
+
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                About
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">
+                                Services
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                href="testimonials.html"
+                                aria-current="page"
+                                style="color:brown;">
+
+                                Testimonials
+
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <!-- Navbar End -->
+
+
+    <!-- Reviews Section Start -->
+    <section class="review-section">
+
+        <div class="container">
+
+            <h1 class="text-center">
+                Clients' Reviews
+            </h1>
+
+            <p class="rating text-center" style="color:darkgoldenrod;">
+                ★★★★★ (5.0)
+            </p>
+
+
+            <!-- Reviews Row 1 -->
+            <div class="row row-cols-1 row-cols-md-2 g-4 review-grid">
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img
+                            src="image/review-2.jpeg"
+                            class="card-img-top"
+                            alt="Client review 2"
+                            loading="lazy">
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img
+                            src="image/review-3.jpeg"
+                            class="card-img-top"
+                            alt="Client review 3"
+                            loading="lazy">
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img
+                            src="image/review-4.jpeg"
+                            class="card-img-top"
+                            alt="Client review 4"
+                            loading="lazy">
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img
+                            src="image/review-5.jpeg"
+                            class="card-img-top"
+                            alt="Client review 5"
+                            loading="lazy">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Reviews Row 2 -->
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img
+                            src="image/review-6.jpeg"
+                            class="card-img-top"
+                            alt="Client review 6"
+                            loading="lazy">
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img
+                            src="image/review-7.jpeg"
+                            class="card-img-top"
+                            alt="Client review 7"
+                            loading="lazy">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Reviews Section End -->
+
+
+    <!-- Service Quality Section Start -->
+    <section class="service-quality">
+
+        <h2>
+            WHY CLIENTS TRUST ME
+        </h2>
+
+
+        <!-- Timely Delivery -->
+        <div class="quality-item">
+
+            <div class="quality-title">
+                <span>⏱ Timely Delivery</span>
+                <span>95%</span>
+            </div>
+
+            <div
+                class="quality-bar"
+                role="progressbar"
+                aria-label="Timely Delivery"
+                aria-valuenow="95"
+                aria-valuemin="0"
+                aria-valuemax="100">
+
+                <div class="fill delivery"></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Quality Work -->
+        <div class="quality-item">
+
+            <div class="quality-title">
+                <span>✔ Quality Work</span>
+                <span>98%</span>
+            </div>
+
+            <div
+                class="quality-bar"
+                role="progressbar"
+                aria-label="Quality Work"
+                aria-valuenow="98"
+                aria-valuemin="0"
+                aria-valuemax="100">
+
+                <div class="fill quality"></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Security Assurance -->
+        <div class="quality-item">
+
+            <div class="quality-title">
+                <span>🔐 Security Assurance</span>
+                <span>95%</span>
+            </div>
+
+            <div
+                class="quality-bar"
+                role="progressbar"
+                aria-label="Security Assurance"
+                aria-valuenow="95"
+                aria-valuemin="0"
+                aria-valuemax="100">
+
+                <div class="fill security"></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Quick Action -->
+        <div class="quality-item">
+
+            <div class="quality-title">
+                <span>⚡ Quick Action</span>
+                <span>92%</span>
+            </div>
+
+            <div
+                class="quality-bar"
+                role="progressbar"
+                aria-label="Quick Action"
+                aria-valuenow="92"
+                aria-valuemin="0"
+                aria-valuemax="100">
+
+                <div class="fill action"></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Response -->
+        <div class="quality-item">
+
+            <div class="quality-title">
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                    24/7 Response
+                </span>
+
+                <span>90%</span>
+            </div>
+
+            <div
+                class="quality-bar"
+                role="progressbar"
+                aria-label="24/7 Response"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100">
+
+                <div class="fill response"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Service Quality Section End -->
+
+
+    <!-- Footer Start -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>
+                SHAWON<span>.</span>
+            </h2>
+
+            <p class="role">
+                Cybersecurity Researcher | Ethical Hacker
+            </p>
+
+            <div class="live-status">
+
+                <p>
+                    🟢 System Status: Online
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-calendar-days"></i>
+                    Date: <span id="date"></span>
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-clock"></i>
+                    Time: <span id="time"></span>
+                </p>
+
+            </div>
+
+            <p class="copyright">
+                © <span id="year"></span> Shawon. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Custom JavaScript -->
+    <script src="custom.js"></script>
+
+
+    <!-- Date, Time and Year -->
+    <script>
+
+        function updateDateTime() {
+
+            const now = new Date();
+
+            const dateElement = document.getElementById("date");
+            const timeElement = document.getElementById("time");
+            const yearElement = document.getElementById("year");
+
+            if (dateElement) {
+                dateElement.textContent = now.toLocaleDateString();
+            }
+
+            if (timeElement) {
+                timeElement.textContent = now.toLocaleTimeString();
+            }
+
+            if (yearElement) {
+                yearElement.textContent = now.getFullYear();
+            }
+
+        }
+
+        updateDateTime();
+
+        setInterval(updateDateTime, 1000);
+
+    </script>
+
+</body>
+
+</html>
+
